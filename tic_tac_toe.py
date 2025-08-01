@@ -100,7 +100,7 @@ def computer_ai(board, current_player):
             comp_choice = random.randint(0, 8)
         board[comp_choice] = current_player
                           
-#Running the game
+#playing the game
 while game_running:
     print_board(board)
     player_input(board, current_player)
